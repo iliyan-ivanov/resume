@@ -17,7 +17,7 @@ const SwiperProjects = () => {
       pagination={{ clickable: true }}
     >
       {repos.map((repo) => (
-        <SwiperSlide>
+        <SwiperSlide key={repo.id}>
           <ProjectCard name={repo.name} img={repo.img} url={repo.url} />
         </SwiperSlide>
       ))}
