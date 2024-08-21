@@ -1,0 +1,16 @@
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    margin-left: 60px;
+}
+
+.project-card h4{
+    margin: 20px;
+}
+
+.project-card-photo img {
+    width: 100%;
+    box-shadow: 6px 8px 5px black;
+}

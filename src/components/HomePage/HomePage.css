@@ -1,0 +1,45 @@
+.home-main-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.home-main-section-photo {
+    display: flex;
+    justify-content: center;
+    flex-basis: 25%;
+    height: 600px;
+}
+
+.home-main-section-photo img {
+    height: 100%;
+}
+
+.home-main-section-info {
+    padding: 20px;
+    flex-basis: 60%;
+}
+
+.home-main-section-info h1 {
+    margin: 0;
+    max-width: 450px;
+    font-size: 64px;
+    font-style: bold;
+    background: linear-gradient(to right,  black, orange);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.home-main-section-info h2 {
+    font-size: 24px;
+    color: black;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.home-main-section-description {
+    width: 93%;
+}
+
+.home-swiper h3 {
+    margin-top: 60px;
+}
