@@ -5,49 +5,62 @@ import destinationsApp from "./assets/destinations-app.png";
 import pizzaSite from "./assets/pizza-site.png";
 import calculator from "./assets/calculator.png";
 import colorPicker from "./assets/color-picker.png";
+import css from "./assets/css.svg";
+import firebase from "./assets/firebase.svg";
+import html from "./assets/html.svg";
+import javascript from "./assets/javascript.svg";
+import react from "./assets/react.svg";
 
 const repos = [
     {
       name: "Game app",
-      url: "https://github.com/iliyan-ivanov/game-app",
+      url: "game-app",
       img: gameApp,
-      id: 1
+      id: 1,
+      technologies: [react, firebase, html, css]
     },
     {
       name: "Weather app",
-      url: "https://github.com/iliyan-ivanov/weather-app",
+      url: "weather-app",
       img: weatherApp,
-      id: 2
+      id: 2,
+      technologies: [react, html, css]
     },
     {
       name: "Football app",
-      url: "https://github.com/iliyan-ivanov/football-app",
+      url: "football-app",
       img: footballApp,
-      id: 3
+      id: 3,
+      technologies: [react, firebase, html, css]
     },
     {
       name: "Calculator",
-      url: "https://github.com/iliyan-ivanov/calculator",
+      url: "calculator",
       img: calculator,
-      id: 4
+      id: 4,
+      technologies: [javascript, html, css]
     },
     {
       name: "Pizza site",
-      url: "https://github.com/iliyan-ivanov/pizza-site",
+      url: "pizza-site",
       img: pizzaSite,
-      id: 5
+      id: 5,
+      technologies: [html, css]
+
     },
     {
       name: "Color picker",
-      url: "https://github.com/iliyan-ivanov/color-picker",
+      url: "color-picker",
       img: colorPicker,
-      id: 6
+      id: 6,
+      technologies: [html, css]
     },
     {
       name: "Destinations app",
-      url: "https://github.com/iliyan-ivanov/destinations-app",
+      url: "destinations-app",
       img: destinationsApp,
-      id: 7
+      id: 7,
+      technologies: [react, html, css]
     },
   ];
 

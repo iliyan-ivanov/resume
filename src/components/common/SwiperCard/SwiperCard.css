@@ -1,0 +1,16 @@
+.swiper-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    margin-left: 50px;
+}
+
+.swiper-card h4{
+    margin: 10px;
+}
+
+.swiper-card-photo img {
+    width: 100%;
+    box-shadow: 6px 8px 5px black;
+}

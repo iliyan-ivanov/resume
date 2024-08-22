@@ -1,14 +1,29 @@
 import { Link } from "react-router-dom";
 import "./ProjectCard.css";
 
-const ProjectCard = (props) => {
+const ProjectCard = ({
+    name,
+    url,
+    img,
+    id,
+    technologies
+}) => {
   return (
-    <div className="project-card">
-      <h4>{props.name}</h4>
-      <Link to={props.url} className="project-card-photo">
-        <img src={props.img} />
-      </Link>
-    </div>
+    <Link to={`/my-projects/${url}`} className="project-card">
+          <div className="project-card-photo">
+            <img src={img} alt="Project photo" />
+          </div>
+          <div className="project-card-info">
+            <h2>{name}</h2>
+            <section className="technologies">
+              {technologies.map(technology => (
+                <article className="technology" key={technology}>
+                    <img src={technology} alt="Technology" />
+                </article>
+              ))} 
+            </section>
+          </div>
+        </Link>
   );
 };
 

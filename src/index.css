@@ -14,3 +14,8 @@ html {
     margin: 0;
     background: rgb(229, 224, 224);
   }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
