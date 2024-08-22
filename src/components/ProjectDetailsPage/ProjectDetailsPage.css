@@ -1,0 +1,31 @@
+.project-details-header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-image {
+    width: 75%;
+}
+
+.project-image img {
+    width: 100%;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-technologies {
+    display: flex;
+    margin: 30px;
+}
+
+.project-description {
+    width: 75%;
+    margin: auto;
+    text-align: justify;
+}
