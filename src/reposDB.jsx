@@ -5,11 +5,11 @@ import destinationsApp from "./assets/destinations-app.png";
 import pizzaSite from "./assets/pizza-site.png";
 import calculator from "./assets/calculator.png";
 import colorPicker from "./assets/color-picker.png";
-import css from "./assets/css.svg";
-import firebase from "./assets/firebase.svg";
-import html from "./assets/html.svg";
-import javascript from "./assets/javascript.svg";
-import react from "./assets/react.svg";
+import css from "/css.svg";
+import firebase from "/firebase.svg";
+import html from "/html.svg";
+import javascript from "/javascript.svg";
+import react from "/react.svg";
 
 const repos = [
     {

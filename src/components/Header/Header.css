@@ -10,7 +10,7 @@
     flex-basis: 32%;
     text-align: center;
     font-size: 36px;
-    background: linear-gradient(to right,  black, orange);
+    background: linear-gradient(to right, black, orange);
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
@@ -31,4 +31,20 @@
     text-decoration: none;
     font-size: 19px;
     color: black;
+}
+
+
+
+@media all and (max-width: 1240px) {
+    .header-navigation,
+    .header-navigation ul {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .header-navigation li {
+        list-style: none;
+        margin:auto;
+        padding: 10px;
+    }
 }
