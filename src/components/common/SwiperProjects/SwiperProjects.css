@@ -3,3 +3,10 @@
     height: 240px;
     left: -50px;
 }
+
+@media all and (max-width: 1400px) {
+    .swiper {
+        height: 200px;
+        width: 700px;
+    }
+}

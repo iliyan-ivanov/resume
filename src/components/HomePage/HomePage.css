@@ -2,17 +2,19 @@
     display: flex;
     justify-content: space-around;
     padding: 50px;
+    padding-bottom: 0;
 }
 
 .home-main-section-photo {
     display: flex;
     justify-content: center;
     flex-basis: 25%;
-    height: 550px;
+    height: 560px;
 }
 
 .home-main-section-photo img {
     height: 100%;
+    border-bottom: 5px solid black;
 }
 
 .home-main-section-info {
@@ -25,7 +27,7 @@
     max-width: 450px;
     font-size: 64px;
     font-style: bold;
-    background: linear-gradient(to right,  black, orange);
+    background: linear-gradient(to right, black, orange);
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
@@ -42,4 +44,105 @@
 
 .home-swiper h3 {
     margin-top: 60px;
+}
+
+.skill-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    margin: auto;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.skills-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    width: 250px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.skills-icons img {
+    height: 100%;
+    padding: 10px;
+}
+
+
+
+/* @media all and (max-width: 1400px) {
+    .home-main-section-photo {
+        height: 500px;
+    }
+
+    .home-main-section-info h1 {
+        max-width: 450px;
+        font-size: 60px;
+    }
+} */
+
+@media all and (max-width: 1240px) {
+    .home-main-section {
+        flex-direction: row;
+        padding-top: 0;
+    }
+
+    .home-main-section-photo {
+        flex-basis: 50%;
+        height: 420px;
+    }
+
+    .home-main-section-info {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        flex-basis: 50%;
+        text-align: center;
+    }
+
+    .home-main-section-description {
+        text-align: justify;
+    }
+
+    .home-main-section-info h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .home-swiper {
+        display: none;
+    }
+   
+}
+
+@media all and (max-width: 600px) {
+    .home-main-section {
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .home-main-section-photo {
+        flex-basis: 0;
+        height: 420px;
+        border-bottom: 5px solid black;
+    }
+
+    .home-main-section-info h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
 }

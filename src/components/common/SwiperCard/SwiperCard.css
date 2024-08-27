@@ -14,3 +14,9 @@
     width: 100%;
     box-shadow: 6px 8px 5px black;
 }
+
+@media all and (max-width: 1400px) {
+    .swiper-card {
+        width: 70%;
+    }
+}
