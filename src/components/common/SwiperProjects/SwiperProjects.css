@@ -1,7 +1,7 @@
 .swiper {
     width: 850px;
     height: 240px;
-    left: -50px;
+    
 }
 
 @media all and (max-width: 1400px) {
@@ -10,3 +10,29 @@
         width: 700px;
     }
 }
+
+@media all and (max-width: 1240px) {
+    .swiper {
+        height: 220px;
+        width: 400px;
+    }
+
+}
+
+@media all and (max-width: 870px) {
+    .swiper {
+        height: 190px;
+        width: 350px;
+    }
+
+}
+
+
+@media all and (max-width: 790px) {
+    .swiper {
+        height: 160px;
+        width: 270px;
+    }
+
+}
+

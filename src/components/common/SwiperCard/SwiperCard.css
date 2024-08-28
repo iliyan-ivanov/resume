@@ -20,3 +20,25 @@
         width: 70%;
     }
 }
+
+@media all and (max-width: 1240px) {
+    .swiper-card {
+        width: 74%;
+    }
+}
+
+@media all and (max-width: 870px) {
+    .swiper-card {
+        width: 70%;
+    }
+
+}
+
+@media all and (max-width: 790px) {
+    .swiper-card {
+        width: 63%;
+    }
+
+}
+
+
