@@ -3,6 +3,10 @@
     justify-content: space-between;
     padding: 40px 70px;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background: rgb(229, 224, 224);
+    z-index: 999;
 }
 
 .nav-heading {
@@ -15,36 +19,112 @@
     background-clip: text;
 }
 
-.header-navigation ul {
+.navigation {
+    flex-basis: 68%;
+}
+
+.navigation-list {
     display: flex;
     justify-content: flex-end;
-    flex-basis: 68%;
+    align-items: center;
     margin: 0;
+    margin-right: 50px;
+
 }
 
-.header-navigation li {
+.nav-link {
     list-style: none;
-    margin-right: 100px;
+    margin-left: 50px;
 }
 
-.header-navigation a {
+.nav-link a {
     text-decoration: none;
     font-size: 19px;
     color: black;
 }
 
+.nav-icon {
+    display: none;
+}
 
-
-@media all and (max-width: 1240px) {
-    .header-navigation,
-    .header-navigation ul {
-        flex-direction: column;
-        padding: 20px;
+@media all and (max-width: 1020px) {
+    .navigation-list {
+        margin-right: 0;
     }
-    
-    .header-navigation li {
-        list-style: none;
-        margin:auto;
-        padding: 10px;
+
+    .nav-link {
+        margin-left: 25px;
+    }
+}
+
+@media all and (max-width: 816px) {
+    .nav-heading {
+        flex-basis: 50%;
+    }
+
+    .navigation {
+        flex-basis: 10%;
+        position: relative;
+    }
+
+    .navigation-list {
+        display: flex;
+        flex-direction: column-reverse;
+        position: absolute;
+        background: rgb(229, 224, 224);
+        align-items: center;
+        left: -130px;
+    }
+
+    .nav-link {
+        text-align: right;
+        width: 120px;
+        margin: 40px;
+        text-align: center;
+    }
+
+    .nav-icon {
+        display: flex;
+        font-size: 28px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .nav-heading {
+        flex-basis: 90%;
+        text-align: left;
+        max-width: 250px;
+    }
+
+    .navigation {
+        flex-basis: 10%;
+    }
+}
+
+@media all and (max-width: 440px) {
+    .header-navigation {
+        padding: 30px 50px;
+    }
+}
+
+@media all and (max-width: 385px) {
+    .header-navigation {
+        padding: 20px 40px;
+    }
+
+    .nav-heading {
+        font-size: 32px;
+    }
+}
+
+@media all and (max-width: 343px) {
+    .header-navigation {
+        flex-direction: column;
+    }
+
+    .navigation {
+        padding: 0px;
+        margin-top: 15px;
+
     }
 }
