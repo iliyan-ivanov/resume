@@ -1,7 +1,7 @@
 .home-main-section {
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding: 30px 50px;
     padding-bottom: 0;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .home-swiper h3 {
-    margin-top: 60px;
+    margin-top: 10px;
     text-align: center;
 }
 

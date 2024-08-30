@@ -1,0 +1,27 @@
+.about-me-page-intro {
+      display: flex;
+      align-items: center;
+      margin: auto;
+      padding: 0px 100px;
+}
+
+.cv-picture {
+      display: flex;
+      justify-content: center;
+      width: 250px;
+      border: 2px solid black;
+      border-radius: 50%;
+      background: rgb(48, 47, 47);
+      overflow: hidden;
+      margin: 20px;
+      padding: 20px 50px 0px 50px;
+}
+
+.cv-picture img {
+      width: 100%;
+}
+
+.about-me-description {
+      margin: 20px;
+      text-align: justify;
+}

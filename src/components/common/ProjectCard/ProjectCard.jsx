@@ -5,7 +5,6 @@ const ProjectCard = ({
     name,
     url,
     img,
-    id,
     technologies
 }) => {
   return (
