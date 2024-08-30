@@ -23,5 +23,77 @@
 
 .about-me-description {
       margin: 20px;
+}
+
+.about-me-description p {
       text-align: justify;
+      font-family: 'Times New Roman', serif;
+}
+
+.education-section {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 30px;
+      margin: auto;
+}
+
+.education-section h3 {
+      text-align: center;
+}
+
+.educations {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+}
+
+.education {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 410px;
+      border-radius: 20px;
+      background: rgb(122, 85, 129);
+      color: white;
+      padding: 0px 30px;
+      margin: 20px;
+}
+
+.education ul {
+      padding: 0;
+}
+
+.education li {
+      padding: 3px;
+}
+
+.education-header {
+      font-weight: 600;
+      font-size: 18px;
+}
+
+.education-city {
+      align-self: flex-end;
+}
+
+@media all and (max-width: 960px) {
+      .about-me-page-intro {
+            padding: 0px 40px;
+      }
+
+      .education {
+            width: 310px;
+      }
+}
+
+@media all and (max-width: 700px) {
+      .about-me-page-intro {
+            flex-direction: column;
+      }
+
+      .about-me-description,
+      .about-me-description p {
+           text-align: center;
+      }
 }

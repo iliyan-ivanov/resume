@@ -31,6 +31,27 @@ const AboutMePage = () => {
       </section>
       <Skills />
       <Certificates />
+      <section className="education-section">
+        <h3>Education</h3>
+        <div className="educations">
+          <article className="education">
+            <ul>
+              <li className="education-header" >JS Web Developer</li>
+              <li>Software University</li>
+              <li>10/2019 - 06/2021</li>
+            </ul>
+            <p className="education-city">Sofia</p>
+          </article>
+          <article className="education">
+            <ul>
+              <li className="education-header" >Bachelor of Science in International Business</li>
+              <li>International Business School</li>
+              <li>09/2013 - 09/2017</li>
+            </ul>
+            <p className="education-city">Sofia</p>
+          </article>
+        </div>
+      </section>
     </main>
   );
 };
