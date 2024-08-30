@@ -8,17 +8,19 @@
 }
 
 .certificates {
-      display: grid;
-      grid-template-columns: auto auto auto;
+      display: flex;
+      flex-wrap: wrap;
       gap: 50px;
+      justify-content: center;
 }
 
 .certificate {
       display: flex;
       align-items: center;
       padding: 10px 30px;
-      border: 2px solid black;
+      border-radius: 20px;
       background: rgb(238, 220, 162);
+      box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 .certificate ul {

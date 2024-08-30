@@ -15,12 +15,12 @@ const HomePage = () => {
             <h1>I am Iliyan</h1>
             <h2>About me:</h2>
             <p className="home-main-section-description">
-              Detail-oriented web developer with experience in building
-              responsive and user-friendly websites. Passionate about creating
-              efficient solutions and improving user experience. I am very
-              motivated to learn new technologies and to develop my knowledge. I
-              am searching a company, from where i can start my career as
-              programmer and to grow in it.
+            I am detail-oriented web developer with some experience in building
+            responsive and user-friendly websites. Passionate about creating
+            efficient solutions and improving user experience. I am very
+            motivated to learn new technologies and to develop my knowledge. I
+            am searching a company, from where i can start my career as
+            programmer and to grow in it.
             </p>
             <p>
             Explore my latest projects showcasing my expertise in JavaScript,

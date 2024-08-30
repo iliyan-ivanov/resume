@@ -5,7 +5,7 @@ const SwiperCard = (props) => {
   return (
     <div className="swiper-card">
       <h4>{props.name}</h4>
-      <Link to={props.url} className="swiper-card-photo">
+      <Link to={`https://github.com/iliyan-ivanov/${props.url}`} className="swiper-card-photo">
         <img src={props.img} />
       </Link>
     </div>
