@@ -3,7 +3,7 @@ import "./Skills.css";
 const Skills = () => {
   return (
       <section className="skill-section">
-      <h3>Skills</h3>
+      <h2>Skills</h2>
       <article className="skills">
         <div className="skills-icons">
           <img src="./javascript.svg" alt="Javascript icon" />

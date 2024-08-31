@@ -6,6 +6,10 @@
       padding: 30px;
       margin: auto;
   }
+
+  .skill-section h2 {
+      margin: 0;
+  }
   
   .skills {
       display: flex;
