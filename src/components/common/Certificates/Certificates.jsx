@@ -4,7 +4,7 @@ import "./Certificates.css";
 const Certificates = () => {
   return (
     <section className="certificates-section">
-      <h3>Certificates</h3>
+      <h2>Certificates</h2>
       <div className="certificates">
         <article className="certificate">
           <div className="certificates-logo">

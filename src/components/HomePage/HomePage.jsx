@@ -22,7 +22,7 @@ const HomePage = () => {
             am searching a company, from where i can start my career as
             programmer and to grow in it.
             </p>
-            <p>
+            <p className="home-main-section-description">
             Explore my latest projects showcasing my expertise in JavaScript,
             ReactJS, HTML, CSS, NodeJs and web development.
           </p>

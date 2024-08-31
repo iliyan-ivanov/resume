@@ -38,13 +38,13 @@
       margin: auto;
 }
 
-.education-section h3 {
+.education-section h2 {
       text-align: center;
 }
 
 .educations {
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
       flex-wrap: wrap;
 }
 
@@ -58,6 +58,7 @@
       color: white;
       padding: 0px 30px;
       margin: 20px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 
 .education ul {
@@ -77,6 +78,84 @@
       align-self: flex-end;
 }
 
+.work-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding: 30px;
+      margin: auto;
+}
+
+.work-experience {
+      display: flex;
+}
+
+.previous-work {
+      width: 600px;
+      padding: 20px 40px;
+      margin: 20px;
+      border-radius: 28px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      background: rgb(83, 103, 60);
+}
+
+.previous-work>ul {
+      padding: 0;
+}
+
+.position {
+      font-weight: 600;
+      font-size: 18px;
+      color: white;
+}
+
+.company-time {
+      margin: 5px 0px;
+      font-style: italic;
+      color: rgb(204, 202, 202);
+}
+
+.company-desctiption {
+      margin: 10px 0px;
+      font-style: italic;
+      color: white;
+}
+
+.responsibilities {
+      font-size: 18px;
+      margin-top: 30px;
+      color: white;
+}
+
+.responsibilities-list li {
+      margin: 10px 0px;
+      color: rgb(222, 221, 221);
+      list-style: circle;
+}
+
+@media all and (max-width: 1330px) {
+      .previous-work {
+            width: 500px;
+      }
+}
+
+@media all and (max-width: 1130px) {
+      .previous-work {
+            width: 450px;
+      }
+}
+
+@media all and (max-width: 1000px) {
+      .work-experience {
+            flex-direction: column;
+      }
+
+      .previous-work {
+            width: 600px;
+      }
+}
+
 @media all and (max-width: 960px) {
       .about-me-page-intro {
             padding: 0px 40px;
@@ -94,6 +173,28 @@
 
       .about-me-description,
       .about-me-description p {
-           text-align: center;
+            text-align: center;
+      }
+
+      .previous-work {
+            width: 500px;
+      }
+}
+
+@media all and (max-width: 580px) {
+      .previous-work {
+            width: 400px;
+      }
+}
+
+@media all and (max-width: 445px) {
+      .previous-work {
+            width: 300px;
+      }
+}
+
+@media all and (max-width: 370px) {
+      .previous-work {
+            width: 250px;
       }
 }

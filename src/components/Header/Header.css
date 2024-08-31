@@ -73,7 +73,8 @@
         position: absolute;
         background: rgb(229, 224, 224);
         align-items: center;
-        left: -130px;
+        left: -90px;
+        padding: 0;
     }
 
     .nav-link {
@@ -98,6 +99,13 @@
 
     .navigation {
         flex-basis: 10%;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .nav-link {
+        margin: 40px 0px;
+        text-align: right;
     }
 }
 
@@ -126,5 +134,10 @@
         padding: 0px;
         margin-top: 15px;
 
+    }
+
+    .nav-link {
+        margin: 40px;
+        text-align: center;
     }
 }
