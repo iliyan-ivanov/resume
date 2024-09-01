@@ -16,12 +16,12 @@ const AboutMePage = () => {
         <article className="about-me-description">
           <h2>Hi, I'm Iliyan Ivanov</h2>
           <p>
-            I am detail-oriented web developer with some experience in building
-            responsive and user-friendly websites. Passionate about creating
-            efficient solutions and improving user experience. I am very
-            motivated to learn new technologies and to develop my knowledge. I
-            am searching a company, from where i can start my career as
-            programmer and to grow in it.
+            I have a strong work ethic, intellectual curiosity, enthusiasm and
+            willingness to build a career in the field of IT. Passionate about
+            creating efficient solutions and improving user experience. I am
+            very motivated to learn new technologies and to develop my
+            knowledge. I am searching a company, from where i can start my
+            career as programmer and to grow in it.
           </p>
           <p>
             Explore my latest projects showcasing my expertise in JavaScript,
