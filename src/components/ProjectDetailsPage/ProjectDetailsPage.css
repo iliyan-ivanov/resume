@@ -12,6 +12,18 @@
     width: 100%;
 }
 
+.project-urls :nth-child(2) {
+    background: black;
+  }
+
+.project-link {
+    padding: 10px 15px;
+    background: red;
+    color: white;
+    border-radius: 18px;
+    margin: 10px;
+}
+
 .project-info {
     display: flex;
     flex-direction: row;
