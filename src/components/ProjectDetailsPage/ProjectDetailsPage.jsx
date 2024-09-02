@@ -20,8 +20,9 @@ const ProjectDetailsPage = () => {
         </article>
       </section>
       <section className="project-info">
-        <article>
-          <Link>GitHub repository</Link>
+        <article className="project-urls">
+          <Link className="project-link">Live</Link>
+          <Link to={`https://github.com/iliyan-ivanov/${repo.url}`} className="project-link">GitHub repository</Link>
         </article>
         <article className="project-technologies">
           {repo.technologies?.map((technology) => (
