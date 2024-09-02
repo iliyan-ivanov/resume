@@ -48,7 +48,7 @@ const Header = () => {
             <Link to="/my-projects">My projects</Link>
           </li>
           <li className="nav-link">
-            <Link to="/contacts" >Contacts</Link>
+            <Link to="/contacts" >Contact</Link>
           </li>
         </ul>
       </nav>

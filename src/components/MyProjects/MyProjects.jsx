@@ -10,11 +10,12 @@ const MyProjects = () => {
       <section className="my-projects">
         {repos.map((repository) => (
           <ProjectCard
+            title={repository.title}
             name={repository.name}
-            url={repository.url}
             technologies={repository.technologies}
             img={repository.img}
             key={repository.id}
+            url={repository.url}
           />
         ))}
       </section>
