@@ -13,54 +13,60 @@ import react from "/react.svg";
 
 const repos = [
     {
-      name: "Game app",
-      url: "game-app",
+      title: "Game app",
+      name: "game-app",
       img: gameApp,
       id: 1,
-      technologies: [react, firebase, html, css]
+      technologies: [react, firebase, html, css],
+      url: "https://iliyan-ivanov.github.io/game-app/",
     },
     {
-      name: "Weather app",
-      url: "weather-app",
+      title: "Weather app",
+      name: "weather-app",
       img: weatherApp,
       id: 2,
-      technologies: [react, html, css]
+      technologies: [react, html, css],
+      url: "https://pizza-site-lyart.vercel.app/",
     },
     {
-      name: "Football app",
-      url: "football-app",
+      title: "Football app",
+      name: "football-app",
       img: footballApp,
       id: 3,
-      technologies: [react, firebase, html, css]
+      technologies: [react, firebase, html, css],
+      url: "https://pizza-site-lyart.vercel.app/",
     },
     {
-      name: "Calculator",
-      url: "calculator",
+      title: "Calculator",
+      name: "calculator",
       img: calculator,
       id: 4,
-      technologies: [javascript, html, css]
+      technologies: [javascript, html, css],
+      url: "https://pizza-site-lyart.vercel.app/",
     },
     {
-      name: "Pizza site",
-      url: "pizza-site",
+      title: "Pizza site",
+      name: "pizza-site",
       img: pizzaSite,
       id: 5,
-      technologies: [html, css]
-
+      technologies: [html, css],
+      url: "https://pizza-site-lyart.vercel.app/",
     },
     {
-      name: "Color picker",
-      url: "color-picker",
+      title: "Color picker",
+      name: "color-picker",
       img: colorPicker,
       id: 6,
-      technologies: [html, css]
+      technologies: [html, css],
+      url: "https://pizza-site-lyart.vercel.app/",
     },
     {
-      name: "Destinations app",
-      url: "destinations-app",
+      title: "Destinations app",
+      name: "destinations-app",
       img: destinationsApp,
       id: 7,
-      technologies: [react, html, css]
+      technologies: [react, html, css],
+      url: "https://pizza-site-lyart.vercel.app/",
     },
   ];
 

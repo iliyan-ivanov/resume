@@ -34,7 +34,7 @@ const SwiperProjects = () => {
     >
       {repos.map((repo) => (
         <SwiperSlide key={repo.id}>
-          <SwiperCard name={repo.name} img={repo.img} url={repo.url} />
+          <SwiperCard title={repo.title} img={repo.img} name={repo.name} />
         </SwiperSlide>
       ))}
     </Swiper>

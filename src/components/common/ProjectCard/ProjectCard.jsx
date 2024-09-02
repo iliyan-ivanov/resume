@@ -3,17 +3,17 @@ import "./ProjectCard.css";
 
 const ProjectCard = ({
     name,
-    url,
+    title,
     img,
     technologies
 }) => {
   return (
-    <Link to={`/my-projects/${url}`} className="project-card">
+    <Link to={`/my-projects/${name}`} className="project-card">
           <div className="project-card-photo">
             <img src={img} alt="Project photo" />
           </div>
           <div className="project-card-info">
-            <h2>{name}</h2>
+            <h2>{title}</h2>
             <section className="technologies">
               {technologies.map(technology => (
                 <article className="technology" key={technology}>

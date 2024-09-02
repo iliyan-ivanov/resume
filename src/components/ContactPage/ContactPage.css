@@ -1,0 +1,58 @@
+.contact-section {
+      display: flex;
+      justify-content: space-around;
+      padding: 40px;
+}
+
+.contact-card {
+      display: block;
+      margin: 30px 0px;
+}
+
+.contact-card div {
+      display: flex;
+      align-items: center;
+}
+
+.contact-card h3 { 
+      font-size: 16px;
+}
+
+.contact-card h4 {
+      font-size: 14px;
+      margin: 0px 10px;
+}
+
+.linkedin-icon {
+      color: rgb(46, 89, 216);
+}
+
+.contact-icon {
+      font-size: 30px;
+      margin: 10px 5px;
+}
+
+@media all and (max-width: 1000px) {
+      .contact-section {
+            flex-direction: column-reverse;
+            align-items: center;
+      }
+
+      .contacts-info {
+            margin-bottom: 50px;
+      }
+
+      .contact-card {
+            display: flex;
+            align-items: center;
+            margin: 10px 0px;
+      }
+}
+
+@media all and (max-width: 590px) {
+      .contact-card {
+            flex-direction: column;
+            margin: 30px 0px;
+            text-align: center;
+      }
+}

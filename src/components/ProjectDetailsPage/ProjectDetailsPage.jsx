@@ -8,21 +8,21 @@ const ProjectDetailsPage = () => {
   const { project } = useParams();
 
   useEffect(() => {
-    const currentRepo = repos.find((x) => x.url == project);
+    const currentRepo = repos.find((x) => x.name == project);
     setRepo(currentRepo);
   }, []);
   return (
     <main>
       <section className="project-details-header-section">
-        <h1>{repo.name}</h1>
+        <h1>{repo.title}</h1>
         <article className="project-image">
           <img src={repo.img} alt="Project image" />
         </article>
       </section>
       <section className="project-info">
         <article className="project-urls">
-          <Link className="project-link">Live</Link>
-          <Link to={`https://github.com/iliyan-ivanov/${repo.url}`} className="project-link">GitHub repository</Link>
+          <Link to={repo.url} className="project-link">Live</Link>
+          <Link to={`https://github.com/iliyan-ivanov/${repo.name}`} className="project-link">GitHub repository</Link>
         </article>
         <article className="project-technologies">
           {repo.technologies?.map((technology) => (
