@@ -14,7 +14,7 @@
 
 .project-urls :nth-child(2) {
     background: black;
-  }
+}
 
 .project-link {
     padding: 10px 15px;
@@ -40,4 +40,17 @@
     width: 75%;
     margin: auto;
     text-align: justify;
+    margin-bottom: 50px;
+}
+
+@media all and (max-width: 630px) {
+    .project-info {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .project-technologies {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
 }
