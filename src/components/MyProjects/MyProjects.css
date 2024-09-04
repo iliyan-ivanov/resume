@@ -4,12 +4,12 @@
 }
 
 .my-projects-page-main-heading {
-    padding-left: 50px ;
+    padding-left: 50px;
     font-size: 26px;
 }
 
 .my-projects-page-sub-heading {
-    padding-left: 50px ;
+    padding-left: 50px;
     font-size: 18px;
     color: gray;
     text-shadow: 0px 1px black;
@@ -62,6 +62,12 @@
 @media all and (max-width: 1170px) {
     .project-card-photo {
         width: 400px;
+    }
+
+    .my-projects-page-main-heading,
+    .my-projects-page-sub-heading {
+        text-align: center;
+        padding: 0px 20px;
     }
 }
 

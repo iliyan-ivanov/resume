@@ -29,7 +29,6 @@
     align-items: center;
     margin: 0;
     margin-right: 50px;
-
 }
 
 .nav-link {
@@ -104,7 +103,7 @@
     .nav-link {
         margin: 40px 0px;
         text-align: right;
-        width: 130px;
+        width: 150px;
     }
 }
 
