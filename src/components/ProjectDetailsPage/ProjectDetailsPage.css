@@ -33,14 +33,27 @@
 
 .project-technologies {
     display: flex;
-    margin: 30px;
+    margin: 40px;
 }
 
 .project-description {
     width: 75%;
     margin: auto;
     text-align: justify;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+}
+
+@media all and (max-width: 860px) {
+    .project-image {
+        margin: 20px 0px;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .project-description {
+        margin-top: 70px;
+        margin-bottom: 120px;
+    }
 }
 
 @media all and (max-width: 630px) {
