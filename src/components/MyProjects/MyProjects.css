@@ -93,4 +93,8 @@
     .project-card-photo {
         width: 300px;
     }
+
+    .project-card-photo h2 {
+        font-size: 12px;
+    }
 }

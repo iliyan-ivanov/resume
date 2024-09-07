@@ -35,3 +35,8 @@
     width: 100%;
 }
 
+@media all and (max-width: 520px) {
+    .project-card-info h2 {
+        font-size: 16px;
+    }
+}
